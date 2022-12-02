@@ -1,7 +1,10 @@
 package chapter3.main;
 
-import chapter3.*;
+import chapter3.config.AppConf1;
+import chapter3.config.AppConf2;
+import chapter3.config.AppConfImport;
 import chapter3.config.AppCtx;
+import chapter3.spring.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -14,7 +17,7 @@ public class MainForSpring {
     private static ApplicationContext ctx = null;
 
     public static void main(String[] args) throws IOException {
-        ctx = new AnnotationConfigApplicationContext(AppCtx.class);
+        ctx = new AnnotationConfigApplicationContext(AppConfImport.class);
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         while (true) {

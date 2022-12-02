@@ -1,7 +1,7 @@
 package chapter3.config;
 
 
-import chapter3.*;
+import chapter3.spring.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

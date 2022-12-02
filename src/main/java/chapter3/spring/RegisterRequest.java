@@ -1,4 +1,4 @@
-package chapter3;
+package chapter3.spring;
 
 // 서비스 구현을 위한 임시 클래스
 public class RegisterRequest {

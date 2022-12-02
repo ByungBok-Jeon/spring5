@@ -1,8 +1,7 @@
-package chapter3;
+package chapter3.spring;
 
 import java.time.LocalDateTime;
 
-// 서비스 구현을 위한 임시 클래스
 public class Member {
     private Long id;
     private String email;

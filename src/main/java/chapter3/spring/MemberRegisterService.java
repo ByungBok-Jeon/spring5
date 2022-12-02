@@ -1,6 +1,5 @@
-package chapter3;
+package chapter3.spring;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class MemberRegisterService {

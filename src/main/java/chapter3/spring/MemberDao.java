@@ -1,4 +1,4 @@
-package chapter3;
+package chapter3.spring;
 
 import java.util.Collection;
 import java.util.HashMap;

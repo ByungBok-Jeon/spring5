@@ -1,7 +1,7 @@
 package chapter3.main;
 
-import chapter3.*;
 import chapter3.assembler.Assembler;
+import chapter3.spring.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;

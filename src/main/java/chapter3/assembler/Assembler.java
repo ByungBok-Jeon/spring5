@@ -1,8 +1,8 @@
 package chapter3.assembler;
 
-import chapter3.ChangePasswordService;
-import chapter3.MemberDao;
-import chapter3.MemberRegisterService;
+import chapter3.spring.ChangePasswordService;
+import chapter3.spring.MemberDao;
+import chapter3.spring.MemberRegisterService;
 
 public class Assembler {
 
